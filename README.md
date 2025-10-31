@@ -18,3 +18,8 @@ A real-time chat application built with **Node.js**, **Socket.IO**, and **Vanill
 cd realtime-chat-app
 npm install
 node index.js 
+
+##  Author
+Naifa ALam 
+🎓 CS Student Project | 2025  
+⭐ If you like this project, give it a star on GitHub!
