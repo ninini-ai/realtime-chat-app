@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teddychat</title>
+     <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+         <script defer src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+     <script defer src="./js/client.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="name-prompt" class="name-prompt-overlay">
+    <div class="name-prompt-box">
+        <h2>Enter Your Name</h2>
+        <input type="text" id="nameInput" placeholder="Your name" />
+        <button id="nameSubmit">Join Chat</button>
+    </div>
+</div>
+    <nav>
+        <img class="logo" src="./teddyimg.png" alt="not Found">
+    </nav>
+    <div class="container">
+        <div class="message right">Enjoy your chat!</div>
+        <div class="message left">Have fun!</div>
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+<input type="text" name="messageInp" id="messageInp" style="font-size: 22px;">
+<button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

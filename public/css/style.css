@@ -1,0 +1,95 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(245, 203, 203),#f081c2);
+}
+.logo{
+    display:block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+ 
+ .container{
+    max-width: 955px;
+    border: 2px solid #F48F99;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    border-radius: 25px;
+    background:#F9E3C9;
+ }
+ .message{
+background-color: #F27D89;
+width: 24%;
+padding: 10px;
+margin: 17px 12px;
+border: 2px solid #F48F99;
+border-radius: 10px;
+ }
+ .left{
+float: left;
+clear: both;
+ }
+ .right{
+    float: right;
+    clear: both;
+ }
+ #messageInp{
+width: 85%;
+border: 2px solid #F48F99;
+border-radius: 6px;
+height: 32px;
+ }
+ #send-container{
+    display: block;
+    margin: auto;
+text-align: center;
+max-width: 1031px;
+width: 150vh;
+justify-items: center;
+align-items: center;
+ }
+ .btn{
+    background-color: #F27D89;
+cursor:pointer;
+border: 2px solid #f57a86;
+border-radius: 6px;
+height: 35px;
+width: 10%;
+ }
+ .name-prompt-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(167, 143, 143, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.name-prompt-box {
+    background: #F9E3C9;
+    padding: 2rem;
+    border-radius: 10px;
+    border-color: #F27D89;
+    border-width: thick;
+    text-align: center;
+}
+
+.name-prompt-box input {
+    font-size: 18px;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    width: 80%;
+}
+
+.name-prompt-box button {
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
